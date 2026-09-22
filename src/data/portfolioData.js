@@ -38,7 +38,7 @@ export const navLinks = [
 
 export const aboutJson = {
   name: "Muhammad Hassan Baig",
-  role: "Full-Stack Software Engineer",
+  role: "Full-Stack developer",
   based_in: "Karachi, Pakistan",
   years_experience: 2,
   core_focus: [
@@ -104,7 +104,7 @@ export const projects = [
     title: "Positivus Landing Page",
     description:
       "A pixel-perfect marketing landing page with modern layout techniques using CSS Grid and Flexbox, featuring smooth animations and fully responsive design.",
-    stack: ["React", "Firebase", "Tailwind CSS", "TypeScript"],
+    stack: ["Html", "Css","Javascript"],
     image: project2Img,
     liveUrl: "https://new-positivus-landing-page.netlify.app/",
     codeUrl: "https://github.com/Hassanmhb",
@@ -125,7 +125,7 @@ export const projects = [
     id: "proj-saas-invoicing",
     title: "Scoops Icecream",
     description:"A modern, artisan ice cream brand web app with a pastel-themed UI, interactive flavor showcases, custom order & table booking modals with real-time validation, deal countdown timers, and smooth Framer Motion scroll interactions.",  
-      stack: ["Next.js", "MongoDB", "Tailwind CSS", "Vercel"],
+      stack: ["React js", "Tailwind CSS", "Vercel"],
     image: project4Img,
     liveUrl: "https://scoops-icecream.vercel.app/",
     codeUrl: "https://github.com/Hassanmhb",
@@ -135,7 +135,7 @@ export const projects = [
     id: "proj-developer-portfolio",
     title: "Shop Co Ecommerce Website",
     description:"A full-stack MERN e-commerce application featuring dynamic product browsing, size/color filtering, and real-time cart state management via React Context API. Built with Material-UI and MongoDB, it leverages Cloudinary for optimized media delivery and is fully deployed on Vercel",  
-      stack: ["React", "Tailwind CSS", "Vercel", "Git"], 
+      stack: ["React js", "Node js", "Express js", "Mongodb"], 
       image: project5Img,
     liveUrl: "https://shop-ecommerce-frontend.vercel.app/",
     codeUrl: "https://github.com/Hassanmhb",

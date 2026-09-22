@@ -134,9 +134,9 @@ export default function Projects() {
 
                   {/* Tech Stack & Links (Bottom Section) */}
                   <div className="space-y-3 sm:space-y-4">
-                    {/* Tech Badges */}
-                    <div className="flex flex-wrap gap-1">
-                      {(project.stack || ["React", "CSS"]).slice(0, 3).map((tech) => (
+                    {/* Tech Badges (FIXED: Saari technologies dikhenge ab) */}
+                    <div className="flex flex-wrap gap-1 max-h-14 overflow-y-auto custom-scrollbar">
+                      {(project.stack || ["React", "CSS"]).map((tech) => (
                         <span
                           key={tech}
                           className="px-2 py-0.5 rounded-md text-[10px] sm:text-[11px] font-mono font-medium bg-accent-soft text-accent border border-accent/20"
